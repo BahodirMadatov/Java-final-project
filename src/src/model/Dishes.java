@@ -9,7 +9,7 @@ public class Dishes extends Applience {
     public Dishes(int id, String name, String price, String quantity, String color) {
         super(id, name);
         this.price = price;
-        this.quantity = quantity;
+        this.quantity = Integer.parseInt(quantity);
         this.color = color;
     }
 
