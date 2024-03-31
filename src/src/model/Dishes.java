@@ -1,12 +1,12 @@
 package model;
 
-public class dishes extends Applience {
+public class Dishes extends Applience {
 
     private String price;
     private int quantity;
     private String color;
 
-    public dishes(int id, String name, String price, int quantity, String color) {
+    public Dishes(int id, String name, String price, String quantity, String color) {
         super(id, name);
         this.price = price;
         this.quantity = quantity;
